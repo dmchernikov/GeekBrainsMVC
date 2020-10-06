@@ -24,6 +24,7 @@ namespace HomeWork_01.Models
         string producer = "Producer " + i.ToString();
 
         data.Add(new ViewModelProduct(id, name, fullName, producer, price));
+        
       }
       return data;
     }
@@ -37,14 +38,19 @@ namespace HomeWork_01.Models
       Price = price;
     }
 
+    [Display(Name = "ID")]
     public int Id { get; set; }
 
-    [Display(Description ="Наименование")]
+    [Display(Name ="Наименование")]
     public string Name { get; set; }
 
-    [Display(Description = "Полное наименование")]
+    [Display(Name = "Полное наименование")]
     public string FullName { get; set; }
+
+    [Display(Name = "Производитель")]
     public string Producer { get; set; }
+
+    [Display(Name = "Цена")]
     public double Price { get; set; }
 
   }
