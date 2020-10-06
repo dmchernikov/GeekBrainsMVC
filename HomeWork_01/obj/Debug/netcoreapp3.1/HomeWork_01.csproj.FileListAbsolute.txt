@@ -188,7 +188,6 @@ C:\VS2019\GeekBrainsMVC\HomeWork_01\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAna
 C:\VS2019\GeekBrainsMVC\HomeWork_01\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\VS2019\GeekBrainsMVC\HomeWork_01\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\VS2019\GeekBrainsMVC\HomeWork_01\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\VS2019\GeekBrainsMVC\HomeWork_01\obj\Debug\netcoreapp3.1\HomeWork_01.csprojAssemblyReference.cache
 C:\VS2019\GeekBrainsMVC\HomeWork_01\obj\Debug\netcoreapp3.1\HomeWork_01.AssemblyInfoInputs.cache
 C:\VS2019\GeekBrainsMVC\HomeWork_01\obj\Debug\netcoreapp3.1\HomeWork_01.AssemblyInfo.cs
 C:\VS2019\GeekBrainsMVC\HomeWork_01\obj\Debug\netcoreapp3.1\HomeWork_01.csproj.CoreCompileInputs.cache
@@ -213,3 +212,5 @@ C:\VS2019\GeekBrainsMVC\HomeWork_01\obj\Debug\netcoreapp3.1\staticwebassets\Home
 C:\VS2019\GeekBrainsMVC\HomeWork_01\obj\Debug\netcoreapp3.1\HomeWork_01.dll
 C:\VS2019\GeekBrainsMVC\HomeWork_01\obj\Debug\netcoreapp3.1\HomeWork_01.pdb
 C:\VS2019\GeekBrainsMVC\HomeWork_01\obj\Debug\netcoreapp3.1\HomeWork_01.genruntimeconfig.cache
+C:\VS2019\GeekBrainsMVC\HomeWork_01\obj\Debug\netcoreapp3.1\Razor\Views\Employee\List.cshtml.g.cs
+C:\VS2019\GeekBrainsMVC\HomeWork_01\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Details.cshtml.g.cs

@@ -8,14 +8,13 @@ namespace HomeWork_01.Models
 {
   public class ViewModelProduct
   {
-
     public static List<ViewModelProduct> GetData()
     {
       List<ViewModelProduct> data = new List<ViewModelProduct>();
 
       int id = 0;
       double price = 1000;
-      for(int i = 1; i < 10; i++)
+      for(int i = 1; i < 30; i++)
       {
         id++;
         price += 100;
@@ -23,8 +22,7 @@ namespace HomeWork_01.Models
         string fullName = "Product full name " + i.ToString();
         string producer = "Producer " + i.ToString();
 
-        data.Add(new ViewModelProduct(id, name, fullName, producer, price));
-        
+        data.Add(new ViewModelProduct(id, name, fullName, producer, price));        
       }
       return data;
     }
