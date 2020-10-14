@@ -214,3 +214,4 @@ C:\VS2019\GeekBrainsMVC\HomeWork_01\obj\Debug\netcoreapp3.1\HomeWork_01.pdb
 C:\VS2019\GeekBrainsMVC\HomeWork_01\obj\Debug\netcoreapp3.1\HomeWork_01.genruntimeconfig.cache
 C:\VS2019\GeekBrainsMVC\HomeWork_01\obj\Debug\netcoreapp3.1\Razor\Views\Employee\List.cshtml.g.cs
 C:\VS2019\GeekBrainsMVC\HomeWork_01\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Details.cshtml.g.cs
+C:\VS2019\GeekBrainsMVC\HomeWork_01\obj\Debug\netcoreapp3.1\HomeWork_01.csprojAssemblyReference.cache

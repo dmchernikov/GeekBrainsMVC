@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Уроки MVC </title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <div class="btn-group pt-2 pb-2 pl-2">
+            <button type="button" class="btn btn-secondary">Главное</button>
+            <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+                <a asp-action="Index" asp-controller="Home" class="dropdown-item">Домашняя страница</a>
+                <a asp-action="GoToMVC" asp-controller="Home" class="dropdown-item">Руководство по ASP.NET Core MVC</a>
+                <div class="dropdown-divider"></div>
+                @*<a class="dropdown-item" href="#">Separated link</a>*@
+                <a href="~/Blog.html" class="dropdown-item">Блог компании</a>
+            </div>
+        </div>
+        <div class="btn-group pt-2 pb-2">
+            <button type="button" class="btn btn-secondary">Данные</button>
+            <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+                <a asp-action="List" asp-controller="Employee" class="dropdown-item">Список сотрудников</a>
+                <a asp-action="List" asp-controller="Product" class="dropdown-item">Список товаров</a>
+            </div>
+        </div>
+
+    </header>
+    <div class="container-fluid">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    @*<footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2020 - TemplateMVC - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        </footer>*@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
