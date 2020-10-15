@@ -1,0 +1,59 @@
+﻿@model IEnumerable<HomeWork_03.Models.EmployeeModel>
+
+@{
+    ViewData["Title"] = "Список сотрудников";
+}
+
+<h1>Список сотрудников</h1>
+<p>
+    <a asp-action="Edit" asp-controller="Employee" class="btn btn-success">Добавить</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MidleName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DOB)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MidleName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DOB)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-controller="Employee" asp-route-id="@item.Id"><i class="far fa-envelope-open"></i></a>
+                    <a asp-action="Edit" asp-controller="Employee" asp-route-id="@item.Id"><i class="far fa-edit"></i></a>
+                    <a asp-action="Delete" asp-controller="Employee" asp-route-id="@item.Id"><i class="fas fa-eraser"></i></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
